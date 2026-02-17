@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://btyxfr0jpbwlb"]
 
 [ext_resource type="Texture2D" uid="uid://dpurmu6k40h0x" path="res://Light_Sun_Effect_Transparent_Clip_Art.png" id="1_rduwp"]
+[ext_resource type="Texture2D" uid="uid://bmw7knvv2mnj5" path="res://plane.png" id="2_q5mif"]
+[ext_resource type="Script" uid="uid://bbcryjwt0p7ev" path="res://plane.gd" id="3_10yw0"]
 
 [sub_resource type="Gradient" id="Gradient_q5mif"]
 offsets = PackedFloat32Array(0.018072288, 0.9518072)
@@ -357,3 +359,12 @@ offset_top = 8.0
 offset_right = 185.0
 offset_bottom = 33.0
 color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+
+[node name="Plane" type="Sprite2D" parent="." unique_id=280672207]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-183.99994, 202.99998)
+rotation = -0.49741885
+scale = Vector2(0.16298352, 0.17063037)
+texture = ExtResource("2_q5mif")
+flip_h = true
+script = ExtResource("3_10yw0")
