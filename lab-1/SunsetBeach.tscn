@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://btyxfr0jpbwlb"]
 
 [ext_resource type="Texture2D" uid="uid://dpurmu6k40h0x" path="res://Light_Sun_Effect_Transparent_Clip_Art.png" id="1_rduwp"]
+[ext_resource type="Script" uid="uid://bidcsid6u1ln0" path="res://cloud.gd" id="2_5h37w"]
 [ext_resource type="Texture2D" uid="uid://bmw7knvv2mnj5" path="res://plane.png" id="2_q5mif"]
 [ext_resource type="Script" uid="uid://bbcryjwt0p7ev" path="res://plane.gd" id="3_10yw0"]
 
@@ -27,6 +28,7 @@ offset_right = 1655.7605
 offset_bottom = 1143.5322
 rotation = 1.5707964
 texture = SubResource("GradientTexture1D_10yw0")
+metadata/_edit_use_anchors_ = true
 
 [node name="ColorRect2" type="ColorRect" parent="." unique_id=1136691711]
 visible = false
@@ -49,316 +51,417 @@ offset_right = 246.0
 offset_bottom = 1872.0
 rotation = -1.5707964
 texture = SubResource("GradientTexture1D_jc4g3")
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1178369957]
+[node name="Cloud7" type="ColorRect" parent="." unique_id=1178369957]
 offset_left = -19.0
 offset_top = 363.0
 offset_right = 65.0
 offset_bottom = 388.0
 color = Color(0.7539839, 0.75398386, 0.75398386, 1)
+script = ExtResource("2_5h37w")
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect3" type="ColorRect" parent="ColorRect" unique_id=140857586]
+[node name="ColorRect3" type="ColorRect" parent="Cloud7" unique_id=140857586]
 layout_mode = 0
 offset_left = 18.0
 offset_top = -14.0
 offset_right = 102.0
 offset_bottom = 11.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect4" type="ColorRect" parent="ColorRect" unique_id=163847187]
+[node name="ColorRect4" type="ColorRect" parent="Cloud7" unique_id=163847187]
 layout_mode = 0
 offset_left = 42.0
 offset_top = -6.0
 offset_right = 126.0
 offset_bottom = 19.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect5" type="ColorRect" parent="ColorRect" unique_id=1872632128]
+[node name="ColorRect5" type="ColorRect" parent="Cloud7" unique_id=1872632128]
 layout_mode = 0
 offset_left = 73.0
 offset_top = -2.0
 offset_right = 157.0
 offset_bottom = 23.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect6" type="ColorRect" parent="ColorRect" unique_id=606776708]
+[node name="ColorRect6" type="ColorRect" parent="Cloud7" unique_id=606776708]
 layout_mode = 0
 offset_left = 38.0
 offset_top = 11.0
 offset_right = 122.0
 offset_bottom = 36.0
 color = Color(0.796243, 0.796243, 0.796243, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect7" type="ColorRect" parent="ColorRect" unique_id=1743013935]
+[node name="ColorRect7" type="ColorRect" parent="Cloud7" unique_id=1743013935]
 layout_mode = 0
 offset_left = 101.0
 offset_top = 8.0
 offset_right = 185.0
 offset_bottom = 33.0
 color = Color(0.8431839, 0.8431839, 0.84318376, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect3" type="ColorRect" parent="." unique_id=2066919370]
+[node name="Cloud6" type="ColorRect" parent="." unique_id=2066919370]
 offset_left = 1026.0
 offset_top = 348.0
 offset_right = 1110.0
 offset_bottom = 373.0
+script = ExtResource("2_5h37w")
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect3" type="ColorRect" parent="ColorRect3" unique_id=1195269622]
+[node name="ColorRect3" type="ColorRect" parent="Cloud6" unique_id=1195269622]
 layout_mode = 0
 offset_left = 18.0
 offset_top = -14.0
 offset_right = 102.0
 offset_bottom = 11.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect4" type="ColorRect" parent="ColorRect3" unique_id=413742986]
+[node name="ColorRect4" type="ColorRect" parent="Cloud6" unique_id=413742986]
 layout_mode = 0
 offset_left = 88.0
 offset_top = -20.0
 offset_right = 172.0
 offset_bottom = 5.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect5" type="ColorRect" parent="ColorRect3" unique_id=1023836391]
+[node name="ColorRect5" type="ColorRect" parent="Cloud6" unique_id=1023836391]
 layout_mode = 0
 offset_left = 73.0
 offset_top = -2.0
 offset_right = 157.0
 offset_bottom = 23.0
 color = Color(0.8217887, 0.82178867, 0.82178867, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect6" type="ColorRect" parent="ColorRect3" unique_id=1515878687]
+[node name="ColorRect6" type="ColorRect" parent="Cloud6" unique_id=1515878687]
 layout_mode = 0
 offset_left = 38.0
 offset_top = 11.0
 offset_right = 122.0
 offset_bottom = 36.0
 color = Color(0.83889705, 0.83889705, 0.838897, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect7" type="ColorRect" parent="ColorRect3" unique_id=402083932]
+[node name="ColorRect7" type="ColorRect" parent="Cloud6" unique_id=402083932]
 layout_mode = 0
 offset_left = 101.0
 offset_top = 8.0
 offset_right = 185.0
 offset_bottom = 33.0
 color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect4" type="ColorRect" parent="." unique_id=1102063312]
+[node name="Cloud5" type="ColorRect" parent="." unique_id=1102063312]
 offset_left = 943.0
 offset_top = 303.0
 offset_right = 1027.0
 offset_bottom = 328.0
+script = ExtResource("2_5h37w")
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect3" type="ColorRect" parent="ColorRect4" unique_id=81008035]
+[node name="ColorRect3" type="ColorRect" parent="Cloud5" unique_id=81008035]
 layout_mode = 0
 offset_left = 18.0
 offset_top = -14.0
 offset_right = 102.0
 offset_bottom = 11.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect4" type="ColorRect" parent="ColorRect4" unique_id=1790840582]
+[node name="ColorRect4" type="ColorRect" parent="Cloud5" unique_id=1790840582]
 layout_mode = 0
 offset_left = 88.0
 offset_top = -20.0
 offset_right = 172.0
 offset_bottom = 5.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect5" type="ColorRect" parent="ColorRect4" unique_id=323018506]
+[node name="ColorRect5" type="ColorRect" parent="Cloud5" unique_id=323018506]
 layout_mode = 0
 offset_left = 73.0
 offset_top = -2.0
 offset_right = 157.0
 offset_bottom = 23.0
 color = Color(0.8217887, 0.82178867, 0.82178867, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect6" type="ColorRect" parent="ColorRect4" unique_id=1452597959]
+[node name="ColorRect6" type="ColorRect" parent="Cloud5" unique_id=1452597959]
 layout_mode = 0
 offset_left = 38.0
 offset_top = 11.0
 offset_right = 122.0
 offset_bottom = 36.0
 color = Color(0.83889705, 0.83889705, 0.838897, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect7" type="ColorRect" parent="ColorRect4" unique_id=2013722383]
+[node name="ColorRect7" type="ColorRect" parent="Cloud5" unique_id=2013722383]
 layout_mode = 0
 offset_left = 101.0
 offset_top = 8.0
 offset_right = 185.0
 offset_bottom = 33.0
 color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect5" type="ColorRect" parent="." unique_id=1292215286]
+[node name="Cloud4" type="ColorRect" parent="." unique_id=1292215286]
 offset_left = -93.0
 offset_top = 317.0
 offset_right = -9.0
 offset_bottom = 342.0
+script = ExtResource("2_5h37w")
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect3" type="ColorRect" parent="ColorRect5" unique_id=485813395]
+[node name="ColorRect3" type="ColorRect" parent="Cloud4" unique_id=485813395]
 layout_mode = 0
 offset_left = 18.0
 offset_top = -14.0
 offset_right = 102.0
 offset_bottom = 11.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect4" type="ColorRect" parent="ColorRect5" unique_id=1834237708]
+[node name="ColorRect4" type="ColorRect" parent="Cloud4" unique_id=1834237708]
 layout_mode = 0
 offset_left = 88.0
 offset_top = -20.0
 offset_right = 172.0
 offset_bottom = 5.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect5" type="ColorRect" parent="ColorRect5" unique_id=287192823]
+[node name="ColorRect5" type="ColorRect" parent="Cloud4" unique_id=287192823]
 layout_mode = 0
 offset_left = 73.0
 offset_top = -2.0
 offset_right = 157.0
 offset_bottom = 23.0
 color = Color(0.8217887, 0.82178867, 0.82178867, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect6" type="ColorRect" parent="ColorRect5" unique_id=532869316]
+[node name="ColorRect6" type="ColorRect" parent="Cloud4" unique_id=532869316]
 layout_mode = 0
 offset_left = 38.0
 offset_top = 11.0
 offset_right = 122.0
 offset_bottom = 36.0
 color = Color(0.83889705, 0.83889705, 0.838897, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect7" type="ColorRect" parent="ColorRect5" unique_id=351724488]
+[node name="ColorRect7" type="ColorRect" parent="Cloud4" unique_id=351724488]
 layout_mode = 0
 offset_left = 101.0
 offset_top = 8.0
 offset_right = 185.0
 offset_bottom = 33.0
 color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect6" type="ColorRect" parent="." unique_id=1766058126]
+[node name="Cloud3" type="ColorRect" parent="." unique_id=1766058126]
 offset_left = 790.0
 offset_top = 162.0
 offset_right = 874.0
 offset_bottom = 187.0
+script = ExtResource("2_5h37w")
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect3" type="ColorRect" parent="ColorRect6" unique_id=929741974]
+[node name="ColorRect3" type="ColorRect" parent="Cloud3" unique_id=929741974]
 layout_mode = 0
 offset_left = 18.0
 offset_top = -14.0
 offset_right = 102.0
 offset_bottom = 11.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect4" type="ColorRect" parent="ColorRect6" unique_id=1719932833]
+[node name="ColorRect4" type="ColorRect" parent="Cloud3" unique_id=1719932833]
 layout_mode = 0
 offset_left = 88.0
 offset_top = -20.0
 offset_right = 172.0
 offset_bottom = 5.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect5" type="ColorRect" parent="ColorRect6" unique_id=1820000204]
+[node name="ColorRect5" type="ColorRect" parent="Cloud3" unique_id=1820000204]
 layout_mode = 0
 offset_left = 73.0
 offset_top = -2.0
 offset_right = 157.0
 offset_bottom = 23.0
 color = Color(0.8217887, 0.82178867, 0.82178867, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect6" type="ColorRect" parent="ColorRect6" unique_id=996808916]
+[node name="ColorRect6" type="ColorRect" parent="Cloud3" unique_id=996808916]
 layout_mode = 0
 offset_left = 38.0
 offset_top = 11.0
 offset_right = 122.0
 offset_bottom = 36.0
 color = Color(0.83889705, 0.83889705, 0.838897, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect7" type="ColorRect" parent="ColorRect6" unique_id=409176418]
+[node name="ColorRect7" type="ColorRect" parent="Cloud3" unique_id=409176418]
 layout_mode = 0
 offset_left = 101.0
 offset_top = 8.0
 offset_right = 185.0
 offset_bottom = 33.0
 color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect7" type="ColorRect" parent="." unique_id=1362727613]
+[node name="Cloud8" type="ColorRect" parent="." unique_id=855443200]
+offset_left = -279.0
+offset_top = 210.0
+offset_right = -195.0
+offset_bottom = 235.0
+script = ExtResource("2_5h37w")
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="Cloud8" unique_id=898859719]
+layout_mode = 0
+offset_left = 18.0
+offset_top = -14.0
+offset_right = 102.0
+offset_bottom = 11.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect4" type="ColorRect" parent="Cloud8" unique_id=1120466733]
+layout_mode = 0
+offset_left = 88.0
+offset_top = -20.0
+offset_right = 172.0
+offset_bottom = 5.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect5" type="ColorRect" parent="Cloud8" unique_id=1309985105]
+layout_mode = 0
+offset_left = 73.0
+offset_top = -2.0
+offset_right = 157.0
+offset_bottom = 23.0
+color = Color(0.8217887, 0.82178867, 0.82178867, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect6" type="ColorRect" parent="Cloud8" unique_id=1728977142]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 11.0
+offset_right = 122.0
+offset_bottom = 36.0
+color = Color(0.83889705, 0.83889705, 0.838897, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect7" type="ColorRect" parent="Cloud8" unique_id=992945902]
+layout_mode = 0
+offset_left = 101.0
+offset_top = 8.0
+offset_right = 185.0
+offset_bottom = 33.0
+color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Cloud" type="ColorRect" parent="." unique_id=1362727613]
 offset_left = -55.0
 offset_top = 33.0
 offset_right = 29.0
 offset_bottom = 58.0
 scale = Vector2(2, 2)
+script = ExtResource("2_5h37w")
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect3" type="ColorRect" parent="ColorRect7" unique_id=525333602]
+[node name="ColorRect3" type="ColorRect" parent="Cloud" unique_id=525333602]
 layout_mode = 0
 offset_left = 32.5
 offset_top = -16.5
 offset_right = 116.5
 offset_bottom = 8.5
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect4" type="ColorRect" parent="ColorRect7" unique_id=1496165642]
+[node name="ColorRect4" type="ColorRect" parent="Cloud" unique_id=1496165642]
 layout_mode = 0
 offset_left = 88.0
 offset_top = -20.0
 offset_right = 172.0
 offset_bottom = 5.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect5" type="ColorRect" parent="ColorRect7" unique_id=1626315283]
+[node name="ColorRect5" type="ColorRect" parent="Cloud" unique_id=1626315283]
 layout_mode = 0
 offset_left = 73.0
 offset_top = -2.0
 offset_right = 157.0
 offset_bottom = 23.0
 color = Color(0.8217887, 0.82178867, 0.82178867, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect6" type="ColorRect" parent="ColorRect7" unique_id=1842289116]
+[node name="ColorRect6" type="ColorRect" parent="Cloud" unique_id=1842289116]
 layout_mode = 0
 offset_left = 38.0
 offset_top = 11.0
 offset_right = 122.0
 offset_bottom = 36.0
 color = Color(0.83889705, 0.83889705, 0.838897, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect7" type="ColorRect" parent="ColorRect7" unique_id=401723171]
+[node name="ColorRect7" type="ColorRect" parent="Cloud" unique_id=401723171]
 layout_mode = 0
 offset_left = 101.0
 offset_top = 8.0
 offset_right = 185.0
 offset_bottom = 33.0
 color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect8" type="ColorRect" parent="." unique_id=1924519654]
+[node name="Cloud2" type="ColorRect" parent="." unique_id=1924519654]
 offset_left = 870.0
 offset_top = 13.0
 offset_right = 954.0
 offset_bottom = 38.0
 scale = Vector2(2, 2)
+script = ExtResource("2_5h37w")
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect3" type="ColorRect" parent="ColorRect8" unique_id=1442782849]
+[node name="ColorRect3" type="ColorRect" parent="Cloud2" unique_id=1442782849]
 layout_mode = 0
 offset_left = 32.5
 offset_top = -16.5
 offset_right = 116.5
 offset_bottom = 8.5
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect4" type="ColorRect" parent="ColorRect8" unique_id=1045135526]
+[node name="ColorRect4" type="ColorRect" parent="Cloud2" unique_id=1045135526]
 layout_mode = 0
 offset_left = 88.0
 offset_top = -20.0
 offset_right = 172.0
 offset_bottom = 5.0
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect5" type="ColorRect" parent="ColorRect8" unique_id=1012995579]
+[node name="ColorRect5" type="ColorRect" parent="Cloud2" unique_id=1012995579]
 layout_mode = 0
 offset_left = 73.0
 offset_top = -2.0
 offset_right = 157.0
 offset_bottom = 23.0
 color = Color(0.8217887, 0.82178867, 0.82178867, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect6" type="ColorRect" parent="ColorRect8" unique_id=454701738]
+[node name="ColorRect6" type="ColorRect" parent="Cloud2" unique_id=454701738]
 layout_mode = 0
 offset_left = 38.0
 offset_top = 11.0
 offset_right = 122.0
 offset_bottom = 36.0
 color = Color(0.83889705, 0.83889705, 0.838897, 1)
+metadata/_edit_use_anchors_ = true
 
-[node name="ColorRect7" type="ColorRect" parent="ColorRect8" unique_id=1403990463]
+[node name="ColorRect7" type="ColorRect" parent="Cloud2" unique_id=1403990463]
 layout_mode = 0
 offset_left = 101.0
 offset_top = 8.0
 offset_right = 185.0
 offset_bottom = 33.0
 color = Color(0.8089983, 0.8089983, 0.8089982, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="Plane" type="Sprite2D" parent="." unique_id=280672207]
 modulate = Color(0, 0, 0, 1)
