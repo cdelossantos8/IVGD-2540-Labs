@@ -1,1 +1,1 @@
-For this lab I decided to create a sunset scene. I love the colors of a sunset, particularly sunsets that have this type of red to orange gradient. I also added the plane because the sunset reminded me of Animal Crossing: New Horizons. To create this scene, I had to look up how to use gradients in Godot, and found out that there was a node called "TextureRect". As for any questions I had, I was confused about the part of the lab that described "several instances of another scene", or what a scene was.
+
