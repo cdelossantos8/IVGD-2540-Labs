@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Vars, If and Input"
+run/main_scene="uid://bls7eb0eusnkk"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
